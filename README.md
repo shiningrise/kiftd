@@ -80,17 +80,17 @@ _注：kift为该功能的开发名称，其实际成果命名为kiftd。_
 
 ### windows
 ```
-docker run --name kiftd -d --restart=always -p 8080:8080 -v E:/kiftd/filesystem:/data/filesystem -v E:/kiftd/conf:/data/conf registry.cn-hangzhou.aliyuncs.com/shiningrise/kiftd:1.2.2-RELEASE
+docker run --name kiftd -d --restart=always -p 8080:8080 -v E:/kiftd/filesystem:/data/filesystem -v E:/kiftd/conf:/data/conf registry.cn-hangzhou.aliyuncs.com/shiningrise/kiftd:1.2.2-RELEASE-alpine
 或者
-docker run --name kiftd -d --restart=always -p 8080:8080 -v E:/kiftd/filesystem:/data/filesystem -v E:/kiftd/conf:/data/conf shiningrise/kiftd:1.2.2-RELEASE
+docker run --name kiftd -d --restart=always -p 8080:8080 -v E:/kiftd/filesystem:/data/filesystem -v E:/kiftd/conf:/data/conf shiningrise/kiftd:1.2.2-RELEASE-alpine
 ```
 ### Linux
 ```
-docker run --name kiftd -d --restart=always -p 8080:8080 -v /data/kiftd/filesystem:/data/filesystem -v /data/kiftd/conf:/data/conf registry.cn-hangzhou.aliyuncs.com/shiningrise/kiftd:1.2.2-RELEASE
+docker run --name kiftd -d --restart=always -p 8080:8080 -v /data/kiftd/filesystem:/data/filesystem -v /data/kiftd/conf:/data/conf registry.cn-hangzhou.aliyuncs.com/shiningrise/kiftd:1.2.2-RELEASE-alpine
 或者
-docker run --name kiftd -d --restart=always -p 8080:8080 -v /data/kiftd/filesystem:/data/filesystem -v /data/kiftd/conf:/data/conf shiningrise/kiftd:1.2.2-RELEASE
+docker run --name kiftd -d --restart=always -p 8080:8080 -v /data/kiftd/filesystem:/data/filesystem -v /data/kiftd/conf:/data/conf shiningrise/kiftd:1.2.2-RELEASE-alpine
 
-``` 
+```
 
   
 
